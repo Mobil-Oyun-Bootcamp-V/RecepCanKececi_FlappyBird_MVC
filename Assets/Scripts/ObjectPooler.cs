@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ObjectPooler : MonoBehaviour
 {
+    // Holds all prefabs in a pool and instantiate them at start
     [System.Serializable]
     public class Pool
     {

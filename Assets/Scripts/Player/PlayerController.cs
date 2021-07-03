@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerController
 {
+    // PlayerController listens view events and controls the player according to these events
     private PlayerModel _model;
     private PlayerView _view;
 

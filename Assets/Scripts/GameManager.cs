@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    //GameManager operates as a state machine and holds view and controller class references
     public static GameManager manager;
 
     public PlayerView _playerView;
@@ -47,7 +48,7 @@ public class GameManager : MonoBehaviour
         _playerController = new PlayerController(_playerView);
         _obstacleController = new ObstacleController(_obstacleView);
     }
-
+    // In update method, GameManager switch game states
     private void Update()
     {
         switch (CurrentGameState)

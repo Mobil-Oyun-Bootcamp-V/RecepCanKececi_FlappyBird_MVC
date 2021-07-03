@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class UIController : MonoBehaviour
 {
+    // UIController controls and holds references of all UI elements of the game except main menu
     public static UIController Instance;
 
     [SerializeField] GameObject introPanel;

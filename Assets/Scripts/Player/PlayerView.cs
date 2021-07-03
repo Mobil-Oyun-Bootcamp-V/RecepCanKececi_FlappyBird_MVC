@@ -5,6 +5,7 @@ using UnityEngine.Events;
 
 public class PlayerView : MonoBehaviour
 {
+    // PlayerView detect gameplay updates and sends events
     public UnityAction OnDead;
     public UnityAction OnJumpButton;
     public UnityAction OnJumpPrepare;
