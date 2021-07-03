@@ -1,1 +1,1 @@
-# RecepCanKececi_FlappyBird_MVC
+## Flappy Bird Clone Developed by MVC Design Pattern
